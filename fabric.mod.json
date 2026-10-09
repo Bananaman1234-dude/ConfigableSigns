@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "configablesigns",
+  "version": "1.0.0",
+  "name": "Configable Signs",
+  "description": "Shift+Right Click a sign to toggle its automatic text update intervals!",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourname.configablesigns.ConfigableSigns"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
